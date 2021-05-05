@@ -1,6 +1,6 @@
 # Description
 
-The aim of this programming project was to produce an agent based model which shows the agents interacting with each other and the environment data. The final outcome includes a animation of the interactions in a GUI offering the opportunity to run the model.
+The aim of this programming project was to produce an agent based model which shows the agents interacting with each other and the environment data. The final outcome includes a animation of the interactions in a GUI offering the opportunity to run the model through the menu.
 
 ## Running the software
 
@@ -22,7 +22,7 @@ In.txt - Environment data.
 ```
 
 ## Testing and Bugs 
-1. Currently the model was working to produce an animated agents based model of agents interacting in the environment until data from web scrapping was added which has resulted in an error and loss of functionality.
+1. Currently the model is working to produce an animated agents based model of agents interacting in the environment until an attempt at producing a stop function when environment is empty has failed.
 2. Timers were added in certain sections of the code to ensure efficiency. 
 3. An error when incorporating the GUI was resolved by changing "canvas.show" to "canvas.draw" allowing the animation to be carried out.
 4. When running the code within the Mac OS the Ipython console had to be adjusted to using Tkinter via System preference> Graphics> Tkinter. and also making the following import "matplotlib.use('macosx')".
