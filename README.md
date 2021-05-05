@@ -17,6 +17,8 @@ eating the environment and sharing distances.
 
 Model.py - Main agent based model brining
 together agents, GUI and webscrapping functionality.
+
+In.txt - Environment data.
 ```
 
 ## Testing and Bugs 
