@@ -10,14 +10,14 @@ Download the software from Github and open within a python interpreter or IDE su
  
 [ReadMe.txt](https://github.com/gy20oz/Assessment1/blob/main/README.md) - This file.
 
-Agentframework.py - File containing the agent
+[Agentframework.py](https://github.com/gy20oz/Assessment1/blob/main/agentframework.py) - File containing the agent
 class and necessary functions for moving, 
 eating the environment and sharing distances.
 
 Model.py - Main agent based model brining
 together agents, GUI and webscrapping functionality.
 
-In.txt - Environment data.
+[In.txt](https://github.com/gy20oz/Assessment1/blob/main/in.txt) - Environment data.
 
 
 ## Testing and Bugs 
