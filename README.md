@@ -8,7 +8,7 @@ Download the software from Github and open within a python interpreter or IDE su
 
 ## Files
  
-ReadMe.txt - This file.
+[ReadMe.txt](https://github.com/gy20oz/Assessment1/blob/main/README.md) - This file.
 
 Agentframework.py - File containing the agent
 class and necessary functions for moving, 
