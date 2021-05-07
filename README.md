@@ -14,14 +14,14 @@ Download the software from Github and open within a python interpreter or IDE su
 class and necessary functions for moving, 
 eating the environment and sharing distances.
 
-[Model.py](https://github.com/gy20oz/Assessment1/blob/main/model.py) - Main agent based model brining
+[Model.py](https://github.com/gy20oz/Assessment1/blob/main/model.py) - Main agent based model bringing
 together agents, GUI and webscrapping functionality.
 
 [In.txt](https://github.com/gy20oz/Assessment1/blob/main/in.txt) - Environment data.
 
 [Licence](https://github.com/gy20oz/Assessment1/blob/main/LICENSE) - Program License.
 
-[earlymodel.py](https://github.com/gy20oz/Assessment1/blob/main/earlymodel.py) = An earlier model version with working animation in GUI and without user input.
+[earlymodel.py](https://github.com/gy20oz/Assessment1/blob/main/earlymodel.py) - An earlier model version with working animation in GUI and without user input.
 
 
 ## Testing and Bugs 
