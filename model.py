@@ -20,6 +20,8 @@ content = r.text
 soup = bs4.BeautifulSoup(content, 'html.parser')
 td_ys = soup.find_all(attrs={"class" : "y"})
 td_xs = soup.find_all(attrs={"class" : "x"})
+
+#To check web scraping has been completed.
 #print(td_ys)
 #print(td_xs)
 
@@ -64,7 +66,7 @@ num_of_agents = int(input("How many agents would you like?"))
 num_of_iterations = 100
 neighbourhood = 20
 
-#Creates new empty lists.
+#Creates new empty lists for environment and agents.
 environment = []
 agents = []
 
@@ -125,6 +127,7 @@ def gen_function(b = [0]):
         a = a + 1
 
 
+# Shows animation plot produced from above code.
 matplotlib.pyplot.show()
 
 
@@ -137,6 +140,3 @@ print("Model run time: ", Modeltime, "seconds")
 
 
 tkinter.mainloop()
-
-
-
