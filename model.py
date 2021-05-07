@@ -97,7 +97,9 @@ def update(frame_number):
          y = int(td_ys[i].text)
          x = int(td_xs[i].text)
          agents.append(agentframework.Agent(environment,agents,y,x))
-          
+         #Print (y)
+         #Print (x)
+    
     
     #Agent random walk,eat,share using loop.
     for j in range(num_of_iterations):
@@ -131,6 +133,7 @@ def gen_function(b = [0]):
 matplotlib.pyplot.show()
 
 
+#Time test for model run time.
 T4=time.time()
 
 
