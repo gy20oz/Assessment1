@@ -15,7 +15,7 @@ class and necessary functions for moving,
 eating the environment and sharing distances.
 
 [Model.py](https://github.com/gy20oz/Assessment1/blob/main/model.py) - Main agent based model bringing
-together agents, GUI and webscrapping functionality.
+together agents, GUI and webscraping functionality.
 
 [In.txt](https://github.com/gy20oz/Assessment1/blob/main/in.txt) - Environment data.
 
