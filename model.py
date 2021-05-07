@@ -20,8 +20,6 @@ content = r.text
 soup = bs4.BeautifulSoup(content, 'html.parser')
 td_ys = soup.find_all(attrs={"class" : "y"})
 td_xs = soup.find_all(attrs={"class" : "x"})
-
-#To check web scraping has been completed.
 #print(td_ys)
 #print(td_xs)
 
@@ -61,12 +59,12 @@ canvas._tkcanvas.pack(side=tkinter.TOP, fill=tkinter.BOTH, expand=1)
 T3=time.time()
 
 
-#Sets up model parameters with user input for integers only otherwise error will show.
-num_of_agents = int(input("How many agents would you like?"))
+#Sets up model parameters.
+num_of_agents = 10
 num_of_iterations = 100
 neighbourhood = 20
 
-#Creates new empty lists for environment and agents.
+#Creates new empty lists.
 environment = []
 agents = []
 
@@ -108,7 +106,7 @@ def update(frame_number):
                 agents[i].share_with_neighbours(neighbourhood)
             
     
-    #Random stop model for model.         
+    #Random stop model.           
     if random.random() < 0.1:
         carry_on = False
         print("stopping condition")        
@@ -127,7 +125,6 @@ def gen_function(b = [0]):
         a = a + 1
 
 
-# Shows animation plot produced from above code.
 matplotlib.pyplot.show()
 
 
@@ -140,3 +137,6 @@ print("Model run time: ", Modeltime, "seconds")
 
 
 tkinter.mainloop()
+
+
+
