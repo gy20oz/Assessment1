@@ -19,6 +19,8 @@ together agents, GUI and webscrapping functionality.
 
 [In.txt](https://github.com/gy20oz/Assessment1/blob/main/in.txt) - Environment data.
 
+[Licence](https://github.com/gy20oz/Assessment1/blob/main/LICENSE) - Program License.
+
 
 ## Testing and Bugs 
 1. Currently the model is working to produce an animated agents based model of agents interacting in the environment until an attempt at producing a stop function when environment is empty has failed.
