@@ -4,7 +4,7 @@ The aim of this programming project was to produce an agent based model which sh
 
 ## Running the software
 
-Download the software from Github and open within a python interpreter or IDE such as Spyder. Select run from the menu to run ABM model. User input required to set number of agents and iterations.
+Download the software from Github (model.py and agentframework.py) and open within a python interpreter or IDE such as Spyder. Select run from the menu to run ABM model. User input required to set number of agents and iterations.
 
 ## Files
  
