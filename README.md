@@ -36,5 +36,4 @@ together agents, GUI and webscrapping functionality.
 [MIT](https://choosealicense.com/licenses/mit/)
 
 
-
 Markdown was created using https://stackedit.io
