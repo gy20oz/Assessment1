@@ -118,9 +118,9 @@ def update(frame_number):
     for i in range(num_of_agents):
        matplotlib.pyplot.scatter(agents[i].x,agents[i].y)
         
-
+#Agent storage stop (non-functional)
 def gen_function(b = [0]):
-    a = 0
+    a = environment.store
     global carry_on
     while (a < 10) & (carry_on) :
         yield a			# Returns control and waits next call.
