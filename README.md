@@ -30,6 +30,7 @@ together agents, GUI and webscraping functionality.
 3. An error when incorporating the GUI was resolved by changing "canvas.show" to "canvas.draw" allowing the animation to be carried out.
 4. When running the code within the Mac OS the Ipython console had to be adjusted to using Tkinter via System preference> Graphics> Tkinter. and also making the following import "matplotlib.use('macosx')".
 5. Attempted to add function for stop when agents have eaten a certain ammount and user input for number of agents and iterations,however, has resulted in loss of animation function. Earlier functionality can be found in earlymodel.py.
+6. Print statments have been added for testing purposes.
 
 
 ## License
